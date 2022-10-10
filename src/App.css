@@ -1,38 +1,143 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li{
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+
+.icon{
+color: white;
+}
+.main_header{
+  padding: 13px 0;
+}
+.logo_header{
+  padding: 20px;
+}
+.navbar-nav a{
+  color: white;
+  font-size: 20px;
+}
+
+
+.slider_caption{
+  padding: 100px 0;
+  text-align: left;
+
+}
+.slider_caption h1{
+font-size: 70px;
+  color: #252525;
+  padding-bottom: 0px;
+}
+.slider_caption h2{
+  font-size: 80px;
+  color:white;
+  padding-bottom: 0px;
+
+}
+.slider_caption p{
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+/* about us */
+.main_about{
+  padding-top: 90px;
+  margin-bottom: 80px;
+
+}
+
+.about_section h1{
+  font-size: 40px;
+  color: #f76d37;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  
+}
+.btn{
+  padding: 15px 40px;
+  font-size: 20px;
+  border: none;
+  
+
+}
+.btn:hover{
+  background-color: #f76d37;
+}
+
+.about_section p{
+  line-height:24px ;
+  font-size:18px ;
+}
+
+.about_image img{
+  width: 100%;
+  height: auto;
+}
+/* gallery */
+.gallery_section{
+  padding-bottom: 50px;
+}
+.main_gallery{
+  text-align: center;
+  line-height: 24px;
+}
+.main_gallery h1{
+  font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+}
+.main_gallery p{
+  font-size: 20px;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+.btn1{
+  align-items: center;
+}
+.image{
+  height: 100%;
+}
+
+.image img{
+  height: 100%;
+}
+
+/* services */
+.services_section{
+  padding-top: 80px;
+  background-repeat: repeat;
+  padding-bottom: 80px;
+}
+.services_caption{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.services_caption p{
+  font-size: 20px;
+  color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* footer */
+.footer{
+  background-color: black;
+  padding-top: 70px;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  height: 300px;
+  
 }
